@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
   </head>
   <body>
 
-  <h2>Fight or Nah</h2>
+    <h2>Fight or Nah</h2>
 
-  <p>Display "Fight" or "run" if your damage is less than your opponents</p>
+    <p>Display "Fight" or "run" if your damage is less than your opponents</p>
 
-  <p id="demo">Who is stronger?</p>
+    <p id="demo">Who is stronger?</p>
 
-  <input type="button" onclick="findDmg()" value="Click Me">
-
+    <input type="button" onclick="runOrNot()" value="Click Me">
+    <form>
+      <label for="itemSelection">Choose Your Items</label>
+      <select name="items" id="items">
+        <option value="cull">Cull</option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
+      <select>
+        <option value="cull">Cull</option>
+      </select>
+      <br><br>
+      <input type="submit" value="Submit"
+    </form>
   </body>
 </html>

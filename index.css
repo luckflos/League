@@ -1,0 +1,10 @@
+* {
+    font-family: sans-serif;
+    color: #B86A47;
+}
+
+html {
+    background-image: url('https://i.ytimg.com/vi/4l6J5jhRgos/maxresdefault.jpg');
+    background-size: cover;
+    font-weight: bold;
+}

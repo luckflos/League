@@ -73,11 +73,15 @@ let greeting
 
 
 
-function findDmg() {
+function runOrNot() {
     if (cull[0] <= infinityEdge[0]){
         greeting = "Run";
     } else {
         greeting = "Fight";
     }
     document.getElementById("demo").innerHTML = greeting;
+}
+
+function findDmg() {
+
 }
