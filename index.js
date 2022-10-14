@@ -8,9 +8,9 @@ const doransRing = [0, 15, 70,0, 0, 0, 0, 0, 0, 0, 0, '+5dmg on-hit to minions, 
 const doransShield = [0, 0, 80, 0, 6, 0, 0, 0, 0, 0, 0, '+5dmg on-hit to minions, when hit by an enemy or large monster; gain 0-40 hp regen based off missing health']
 const emberKnife = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '+7% omniVamp, Dmg to monsters burns them for (60(+30%AP)(+5% bonus AD)(+2% bonus health)) magic dmg every 5sec., killing large monsters grant 60 bonus exp=; the 1st one granting a total of 210, regenerate 8-18mana based off of missing mana']
 const spectralSicle = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-const bfSword = 40
-const longSword = 10
-const pickaxe = 25
+const bfSword = [40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+const longSword = [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+const pickaxe = [25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 const hexdrinker = 20
 const ironSpikeWhip = 25
 const lastWhisper = 20
@@ -74,7 +74,7 @@ let greeting
 
 
 function findDmg() {
-    if (mortalReminder <= ravenousHydra.attackDmg){
+    if (cull[0] <= infinityEdge[0]){
         greeting = "Run";
     } else {
         greeting = "Fight";
