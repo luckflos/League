@@ -8,3 +8,20 @@ html {
     background-size: cover;
     font-weight: bold;
 }
+
+.itemSelection {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.items {
+    margin: 20px;
+}
+
+
+.answer1 {
+    border: 5px solid green;
+    padding-left: 10px;
+    margin: 10px;
+}
