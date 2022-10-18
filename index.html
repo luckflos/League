@@ -5,14 +5,20 @@
     <script src="index.js"></script>
   </head>
   <body>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <form class="fightornah">
+      <h2>Fight or Nah</h2>
 
-    <h2>Fight or Nah</h2>
+      <p>Display "Fight" or "run" if your damage is less than your opponents</p>
 
-    <p>Display "Fight" or "run" if your damage is less than your opponents</p>
-
-    <p id="demo">Who is stronger?</p>
-
-    <input type="button" onclick="runOrNot()" value="Click Me">
+      <p id="demo">Who is stronger?</p>
+      <input type="button" onclick="runOrNot()" value="Click Me">
+    </form>
     <form class="itemSelection">
       <label for="itemSelection">Choose Your Items</label>
       <select name="items" id="items" class="items">
